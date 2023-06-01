@@ -32,6 +32,20 @@ EN:
 - Exp: A specific experiment, such as different base models, different dim sizes, different alphas, etc.
 - Config: The configuration for a single training, which can be regarded as the parameters of a kohay-ss training script.
 
+## Usage
+
+1. Configure your recipe like the file configuration of the example recipe `example`
+2. [Opetional] Test if your settings are no erros with run main.py with debug mode
+
+```python
+python ./main.py --recipe example --debug
+```
+3. Traning 
+
+```python
+python ./main.py --recipe example 
+```
+
 ## Reference
 
 - [Kohya-ss/Sd-scripts](https://github.com/kohya-ss/sd-scripts)
