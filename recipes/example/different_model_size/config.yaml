@@ -1,0 +1,5 @@
+- name: exp_with_dim_4
+  network_dim: 4
+
+- name: exp_with_dim_8
+  network_dim: 8

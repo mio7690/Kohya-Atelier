@@ -1,0 +1,5 @@
+- name: nai
+  pretrained_model_name_or_path: E:\stablediffusion\novelai-webui-aki-v2\models\Stable-diffusion\original_nai.safetensor
+
+- name: nai
+  pretrained_model_name_or_path: E:\stablediffusion\novelai-webui-aki-v2\models\Stable-diffusion\AnythingV5.safetensor

@@ -1,0 +1,27 @@
+- name: noise_offset_none
+  noise_offset: None
+
+- name: noise_offset_0.1
+  noise_offset: 0.1
+
+- name: noise_offset_0.2
+  noise_offset: 0.2
+
+- name: noise_offset_0.3
+  noise_offset: 0.3
+
+- name: noise_offset_none_nai
+  noise_offset: None
+  pretrained_model_name_or_path: E:\stablediffusion\novelai-webui-aki-v2\models\Stable-diffusion\original_nai.safetensors
+  
+- name: noise_offset_0.1_nai
+  noise_offset: 0.1
+  pretrained_model_name_or_path: E:\stablediffusion\novelai-webui-aki-v2\models\Stable-diffusion\original_nai.safetensors
+
+- name: noise_offset_0.2_nai
+  noise_offset: 0.2
+  pretrained_model_name_or_path: E:\stablediffusion\novelai-webui-aki-v2\models\Stable-diffusion\original_nai.safetensors
+
+- name: noise_offset_0.3_nai
+  noise_offset: 0.3
+  pretrained_model_name_or_path: E:\stablediffusion\novelai-webui-aki-v2\models\Stable-diffusion\original_nai.safetensors
